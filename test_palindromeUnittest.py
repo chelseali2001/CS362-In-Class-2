@@ -11,5 +11,5 @@ class SimpleTest(unittest.TestCase):
     def test_calculator1(self):
         self.assertEqual(palindrome.palin("something"), False)
 
-    def test_calculator1(self):
+    def test_calculator2(self):
         self.assertEqual(palindrome.palin(111), "Strings only")
