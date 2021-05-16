@@ -8,4 +8,4 @@ def test_passMulti():
     assert wordCount.count("This is an activity") == 4
 
 def test_type():
-    assert wordCount.count(32) == "Strings only"
+    assert wordCount.count(32) == 1

@@ -9,4 +9,4 @@ class SimpleTest(unittest.TestCase):
         self.assertEqual(wordCount.count("a a a a "), 4)
 
     def test_calculator1(self):
-        self.assertEqual(wordCount.count(111), "Strings only")
+        self.assertEqual(wordCount.count(111), 1)

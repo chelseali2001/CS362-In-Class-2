@@ -11,4 +11,4 @@ def test_false():
     assert palindrome.palin("Chelsea") == False
 
 def test_type():
-    assert palindrome.palin(9) == "Strings only"
+    assert palindrome.palin(9) == True
